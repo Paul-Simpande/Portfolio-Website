@@ -23,19 +23,19 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li>
-                        <a href="#home" class="nav__link">HOME</a>
+                        <a href="#home" class="nav__link active-link">HOME</a>
                     </li>
                     <li>
-                        <a href="#work" class="nav__link">WORK</a>
+                        <a href="#work" class="nav__link ">WORK</a>
                     </li>
                     <li>
-                        <a href="#info" class="nav__link">MY INFO</a>
+                        <a href="#info" class="nav__link ">MY INFO</a>
                     </li>
                     <li>
-                        <a href="#services" class="nav__link">SERVICES</a>
+                        <a href="#services" class="nav__link ">SERVICES</a>
                     </li>
                     <li>
-                        <a href="#contact" class="nav__link">CONTACT ME</a>
+                        <a href="#contact" class="nav__link ">CONTACT ME</a>
                     </li>
                 </ul>
                 <!-- Close Buttons -->
@@ -60,7 +60,7 @@
                     <h1 class="home__name">Tailor<br> Lybrom</h1>
                     <h3 class="home__profession">Web Developer</h3>
                 </div>
-                <a href="Work" class="home__scroll">
+                <a href="#work" class="home__scroll">
                     <div class="home__scroll-box">
                         <i class="ri-arrow-down-line"></i>
                     </div>
@@ -301,11 +301,28 @@
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">HOME</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">WORK</a>
+                </li>
+                <li>
+                    <a href="#info" class="footer__link">INFO</a>
+                </li>
+            </ul>
+            <span class="footer__copy">
+                &#169; All Rights Reserved By Bedimcode
+            </span>
+        </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
